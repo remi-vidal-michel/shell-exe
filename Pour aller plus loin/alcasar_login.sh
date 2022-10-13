@@ -7,8 +7,3 @@ curl \
     -H "Content-Type: application/x-www-form-urlencoded" \
     -X POST https://alcasar.laplateforme.io/intercept.php \
     -L 
-
-if [ $chall = '' ]
-then echo "Tu es déjà connecté"
-else echo $chall
-fi
